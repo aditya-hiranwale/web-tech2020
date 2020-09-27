@@ -26,6 +26,11 @@
 	margin-top: -35px;
 	margin-right: 38px;
 }
+.nav{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
 .active{
 	color: blue !important;
 }
