@@ -8,7 +8,7 @@ body{
     padding: 0;
     background: #42455a;
     color: #fff;
-    background-image: url("/images/N.svg");
+    background-image: url("images/N.svg");
     background-position: right;
     font-family: sans-serif;
 }
