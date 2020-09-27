@@ -4,6 +4,15 @@
 	<meta charset="UTF-8">
   	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>NetBit VPN</title>
+	<style>
+		.hover-black:hover {
+		transition: ease .5s;
+		transform: matrix(1.1,0,0,1.1,0,0);
+		}
+		/* Remove margins from "page content" on small screens */
+		@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+	</style>
+
 	<link rel="icon" type="image/gif" href="images/N.svg">
 	<link rel="stylesheet" href="styles/indexstyle.css">
 	<link rel="stylesheet" href="Netbit/N.svg">
@@ -12,13 +21,13 @@
 	<div class="container">
 		<div class="menu">
 			<ul>
-				<li  class="logo"><a href="index.html"><img src="images/N.svg"></a></li>
-				<li class="active">Home</li>
-				<li>services</li>
-				<li>product</li>
-				<li>contact</li>
-				<li><a href="Signupform.html" class="sign-btn"><span>Sign up</span></a></li>
-				<li><a href="loginform.html" class="log-btn"><span>Log in</span></a></li>
+				<li  class="logo hover-black"><a href="index.html"><img src="images/N.svg"></a></li>
+				<li class="active hover-black">Home</li>
+				<li class="hover-black">services</li>
+				<li class="hover-black">product</li>
+				<li class="hover-black">contact</li>
+				<li><a href="Signupform.html" class="sign-btn hover-black"><span>Sign up</span></a></li>
+				<li><a href="loginform.html" class="log-btn hover-black"><span>Log in</span></a></li>
 			</ul>
 			
 		</div>
@@ -51,7 +60,7 @@
 					<div class="play-btn-inner">
 				</div>
 			</div>
-			<div class="app-pic">
+			<div class="app-pic hover-black">
 				<img src="images/netbit.svg">
 				
 			</div>

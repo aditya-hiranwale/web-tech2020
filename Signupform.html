@@ -1,13 +1,23 @@
 <html>
 <head>
 <title>SignUo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/signupstyle.css">
+    <style>
+        .hover-black:hover {
+        transition: ease .5s;
+        transform: matrix(1.1,0,0,1.1,0,0);
+        }
+        /* Remove margins from "page content" on small screens */
+        @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+    </style>
     <link rel="icon" type="image/gif" href="images/N.svg">
 <body>
 
     <div class="menu">
             <ul>
-                <li  class="logo"><a href="index.html"><img src="images/N.svg"></a></li>
+                <li  class="logo hover-black"><a href="index.html"><img src="images/N.svg"></a></li>
             </ul>
     </div>
     <div class="loginbox">
@@ -22,7 +32,7 @@
             <input type="password" name="" placeholder="Enter Password">
             <p>Enter Password Again</p>
             <input type="password" name="" placeholder="Confirm Password">
-            <input type="submit" name="" value="Sign up">
+            <input class="hover-black" type="submit" name="" value="Sign up">
             <a href="loginform.html">Already have an Account? Login here</a>
             <br>
             <br>
