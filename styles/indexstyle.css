@@ -118,22 +118,14 @@
 }
 .social-icons{
 	right: -130px;
-	bottom: -60px;
+	bottom: -30px;
 	position: absolute;
 }
 .social-icons ul li{
+	display: inline-flex;
 	list-style: none;
-	margin:35px;
-	margin-top: -10px;
-	text-align: center;
-
 }
 .social-icons ul li img{
-	width: 30px;
-	margin-top: -15px;
-	margin-right: 10px;
-}
-.social-icons ul li a{
-	display: block;
-
+	width: 40px;
+	margin: 25px;
 }
